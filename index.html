@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous" />
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+    <title>My Portfolio | Jeremy Evan</title>
+  </head>
+  <body id="home">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top" style="background-color: #00aebb">
+      <div class="container">
+        <a class="navbar-brand" href="#">Jeremy Evan</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Contact Me
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="https://instagram.com/jeremyevann">Instagram</a></li>
+                  <li><a class="dropdown-item" href="https://line.me/ti/p/zW01TMTdVr">LINE</a></li>
+                  <li><a class="dropdown-item" href="https://api.whatsapp.com/send?phone=6285156958457">WhatsApp</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- Jumbotron -->
+    <section class="jumbotron text-center">
+        <img src="./assets/Jervan.png" alt="jervan-main" width="200" class="rounded-circle img-thumbnail">
+        <h1 class="display-4">Jeremy Evan</h1>
+        <p class="lead">First-year undergraduate student at Institut Teknologi Bandung | Mathematics tutor at Ajak Gerak | An observant learner</p>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,192L30,192C60,192,120,192,180,202.7C240,213,300,235,360,245.3C420,256,480,256,540,229.3C600,203,660,149,720,154.7C780,160,840,224,900,224C960,224,1020,160,1080,122.7C1140,85,1200,75,1260,74.7C1320,75,1380,85,1410,90.7L1440,96L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path></svg>
+    </section>
+    <!-- Akhir Jumbotron -->
+
+    <!-- About Me -->
+    <section id="about">
+        <div class="container">
+            <div class="row text-center mb-3">
+                <div class="col">
+                    <h2>About Me</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center fs-5 text-center">
+                <div class="col-md-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus voluptate nisi inventore molestias. Officia harum ratione qui laudantium ut corrupti!</div>
+                <div class="col-md-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi tempora vitae quibusdam molestias voluptatibus laboriosam voluptatem, quas rem facere recusandae doloremque tenetur delectus velit autem.</div>
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#d3f6ff" fill-opacity="1" d="M0,64L40,101.3C80,139,160,213,240,202.7C320,192,400,96,480,80C560,64,640,128,720,165.3C800,203,880,213,960,202.7C1040,192,1120,160,1200,149.3C1280,139,1360,149,1400,154.7L1440,160L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+    </section>
+    <!-- Akhir About Me -->
+
+    <!-- Projects -->
+    <section id="projects">
+        <div class="container">
+            <div class="row text-center mb-3">
+                <div class="col">
+                    <h2>My Projects</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-md-4 mb-3">
+                <div class="card">
+                  <img src="./assets/conf.gif" class="card-img-top" alt="conf-board">
+                  <div class="card-body">
+                    <h5 class="card-title">Confession Board</h5>
+                    <p class="card-text">A website in which you can tell me anything while being anonymous.</p>
+                    <a href="https://jeremyevann.github.io/Confession-Board" class="btn btn-primary">Check it out</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,224L30,224C60,224,120,224,180,213.3C240,203,300,181,360,176C420,171,480,181,540,202.7C600,224,660,256,720,256C780,256,840,224,900,197.3C960,171,1020,149,1080,149.3C1140,149,1200,171,1260,181.3C1320,192,1380,192,1410,192L1440,192L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path></svg>
+    </section>
+    <!-- Akhir Projects -->
+
+    <!-- Contact Me -->
+    <section id="contact">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col">
+            <h2>Contact Me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Full Name</label>
+                <input type="text" class="form-control" id="name" aria-describedby="name">
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" aria-describedby="email">
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="3" style="resize: none;"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#d3f6ff" fill-opacity="1" d="M0,128L30,144C60,160,120,192,180,176C240,160,300,96,360,64C420,32,480,32,540,37.3C600,43,660,53,720,85.3C780,117,840,171,900,176C960,181,1020,139,1080,122.7C1140,107,1200,117,1260,122.7C1320,128,1380,128,1410,128L1440,128L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path></svg>
+    </section>
+    <!-- Akhir Contact Me -->
+
+    <!-- Footer -->
+    <footer class="text-center pb-5">
+      <p>Made with <i class="bi bi-heart-fill text-danger"></i> by <a href="https://instagram.com/jeremyevann" class="fw-bold">Jeremy Evan</a></p>
+    </footer>
+    <!-- Akhir Footer -->
+    <script src="a.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+  </body>
+</html>
